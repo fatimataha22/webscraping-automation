@@ -25,8 +25,10 @@ jobs:
           sudo apt-get install -y chromium-browser
           pip install selenium pandas webdriver-manager fake-useragent
 
-      - name: Run Selenium scraper
-        run: python bitcoin_scraper.py
+      - name: Run Selenium scrapers
+        run: |
+          python bitcoin_scraper.py
+          python optimized_bitcoin_scraper.py
 
       - name: Commit and Push updated CSV
         run: |
