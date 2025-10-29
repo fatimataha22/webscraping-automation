@@ -24,3 +24,13 @@ th, td {
 th {
   background: #f9f9f9;
 }
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#optimized-data-container {
+  margin-top: 20px;
+}
